@@ -1,0 +1,87 @@
+.navbar-one{
+	
+		background-color: black!important;
+		border-radius: 0px!important;
+		color: white;
+		.navbar-nav>li>a {
+    		color: white!important;
+    		&:hover {
+			    color: #777!important;
+			    background-color: transparent;
+			  }
+			 
+			  &:focus {
+			    background-color: white!important;
+			    color:black!important;
+			  }
+		}
+	}
+
+	.smallHeader{
+		font-size: 13px;
+		margin-top: 0px;
+	}
+
+	
+
+
+.navbar-default{
+	a {
+	  color: black!important;
+	  &:hover {
+		    color: #FF7A00;
+		    text-decoration: none!important;
+		  }
+		}
+	margin:0!important;
+	 background-color: white!important;
+    border-color: white!important;
+	.navbar-nav > li > a{
+		padding-left: 0;
+	}
+
+	
+	p{
+		display: inline-block!important;
+	}
+	.menu-welcome{
+		float:right;
+	}
+	.dropdown{
+		float:right;
+	}
+	ul{
+		list-style-type: none;
+	}
+	.account{
+		color:#666;
+	}
+	.verticalLine {
+	    border-left: 1px solid #666;
+	}
+	.right{
+		float:right;
+	}
+	.welcome{
+		@extend .right;
+		margin-top: 12px;
+	}
+	.low-menu{
+		margin-top: 15px;
+		p{
+			padding:0 10px;
+
+		}
+	}
+	.navbar-form{
+		width: 100%;
+		padding:0!important;
+		margin-top: 20px;
+	}
+	.form-control{
+		width: 250px!important;
+	}
+}
+
+
+
