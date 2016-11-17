@@ -9118,13 +9118,13 @@ footer h4 {
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  /* line 24, ../sass/_mobile.scss */
+  /* line 18, ../sass/_mobile.scss */
   .navbar-one {
     font-size: 10px !important;
     height: 45px;
   }
 
-  /* line 29, ../sass/_mobile.scss */
+  /* line 22, ../sass/_mobile.scss */
   .blank {
     background: white;
     width: 50px;
@@ -9133,7 +9133,7 @@ footer h4 {
     left: 48%;
   }
 
-  /* line 36, ../sass/_mobile.scss */
+  /* line 29, ../sass/_mobile.scss */
   .shop {
     border-right: 2px dotted black;
   }
