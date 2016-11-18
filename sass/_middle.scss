@@ -21,9 +21,9 @@ width: 100%;
 
 
 .btn-danger{
-	background-color: white!important;
-	border:2px solid green!important;
-	color: black!important;
+	background-color: white;
+	border:2px solid green;
+	color: black;
 	width: 300px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -40,7 +40,7 @@ width: 100%;
 	background: white;
 	position:absolute;
 	left:50%;
-	margin-left: -70px!important;
+	margin-left: -70px;
 	padding:20px;
 	margin-top:-80px;
 }
@@ -67,14 +67,14 @@ width: 100%;
 
 }
 .form-control{
-		width: 250px!important;
-		border-radius: 0!important;
+		width: 250px;
+		border-radius: 0;
 	}
 	.aboveFooter{
 		margin-top:20px;
 		margin-bottom:20px;
 		.navbar-form{
-			margin:0!important;
+			margin:0;
 		}
 	}
 
@@ -87,7 +87,7 @@ footer{
 	}
 	.privacy{
 		p{
-			display: inline-block!important;
+			display: inline-block;
 		}
 	}
 	h4{

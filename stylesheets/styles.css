@@ -8791,99 +8791,99 @@ button.close {
 }
 /* line 1, ../sass/_header.scss */
 .navbar-one {
-  background-color: black !important;
-  border-radius: 0px !important;
+  background-color: black;
+  border-radius: 0;
   color: white;
 }
-/* line 6, ../sass/_header.scss */
+/* line 5, ../sass/_header.scss */
 .navbar-one .navbar-nav > li > a {
   color: white !important;
 }
-/* line 8, ../sass/_header.scss */
+/* line 7, ../sass/_header.scss */
 .navbar-one .navbar-nav > li > a:hover {
   color: #777 !important;
   background-color: transparent;
 }
-/* line 13, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 .navbar-one .navbar-nav > li > a:focus {
   background-color: white !important;
   color: black !important;
 }
 
-/* line 20, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 .smallHeader {
   font-size: 13px;
   margin-top: 0px;
 }
 
-/* line 28, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 .navbar-default {
   margin: 0 !important;
   background-color: white !important;
   border-color: white !important;
 }
-/* line 29, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 .navbar-default a {
-  color: black !important;
+  color: black;
 }
-/* line 31, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 .navbar-default a:hover {
   color: #FF7A00;
-  text-decoration: none !important;
+  text-decoration: none;
 }
-/* line 39, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 .navbar-default .navbar-nav > li > a {
   padding-left: 0;
 }
-/* line 44, ../sass/_header.scss */
+/* line 43, ../sass/_header.scss */
 .navbar-default p {
-  display: inline-block !important;
+  display: inline-block;
 }
-/* line 47, ../sass/_header.scss */
+/* line 46, ../sass/_header.scss */
 .navbar-default .menu-welcome {
   float: right;
 }
-/* line 50, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 .navbar-default .dropdown {
   float: right;
 }
-/* line 53, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 .navbar-default ul {
   list-style-type: none;
 }
-/* line 56, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 .navbar-default .account {
   color: #666;
 }
-/* line 59, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 .navbar-default .verticalLine {
   border-left: 1px solid #666;
 }
-/* line 62, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 .navbar-default .right, .navbar-default .welcome {
   float: right;
 }
-/* line 65, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .navbar-default .welcome {
   margin-top: 12px;
 }
-/* line 69, ../sass/_header.scss */
+/* line 68, ../sass/_header.scss */
 .navbar-default .low-menu {
   margin-top: 15px;
 }
-/* line 71, ../sass/_header.scss */
+/* line 70, ../sass/_header.scss */
 .navbar-default .low-menu p {
   padding: 0 10px;
 }
-/* line 76, ../sass/_header.scss */
+/* line 75, ../sass/_header.scss */
 .navbar-default .navbar-form {
   width: 100%;
-  padding: 0 !important;
+  padding: 0;
   margin-top: 20px;
 }
-/* line 81, ../sass/_header.scss */
+/* line 80, ../sass/_header.scss */
 .navbar-default .form-control {
-  width: 250px !important;
+  width: 250px;
 }
 
 /* line 1, ../sass/_global.scss */
@@ -8957,18 +8957,18 @@ a:active {
 #hero .btn-view {
   display: inline-block;
   background: #4A85EB;
-  color: white !important;
+  color: white;
   width: 45%;
   margin-top: 15px;
 }
 /* line 39, ../sass/_hero.scss */
 #hero .btn-view h4 {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   font-size: 15px;
 }
 /* line 43, ../sass/_hero.scss */
 #hero .btn-view h2 {
-  margin-top: 0 !important;
+  margin-top: 0;
 }
 /* line 48, ../sass/_hero.scss */
 #hero .wrapper {
@@ -9021,9 +9021,9 @@ a:active {
 
 /* line 23, ../sass/_middle.scss */
 .btn-danger {
-  background-color: white !important;
-  border: 2px solid green !important;
-  color: black !important;
+  background-color: white;
+  border: 2px solid green;
+  color: black;
   width: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -9043,7 +9043,7 @@ a:active {
   background: white;
   position: absolute;
   left: 50%;
-  margin-left: -70px !important;
+  margin-left: -70px;
   padding: 20px;
   margin-top: -80px;
 }
@@ -9073,8 +9073,8 @@ a:active {
 
 /* line 69, ../sass/_middle.scss */
 .form-control {
-  width: 250px !important;
-  border-radius: 0 !important;
+  width: 250px;
+  border-radius: 0;
 }
 
 /* line 73, ../sass/_middle.scss */
@@ -9084,7 +9084,7 @@ a:active {
 }
 /* line 76, ../sass/_middle.scss */
 .aboveFooter .navbar-form {
-  margin: 0 !important;
+  margin: 0;
 }
 
 /* line 81, ../sass/_middle.scss */
@@ -9099,7 +9099,7 @@ footer p {
 }
 /* line 89, ../sass/_middle.scss */
 footer .privacy p {
-  display: inline-block !important;
+  display: inline-block;
 }
 /* line 93, ../sass/_middle.scss */
 footer h4 {
@@ -9107,24 +9107,23 @@ footer h4 {
 }
 
 /*========== Non-Mobile First Method ==========*/
-/* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  /* line 10, ../sass/_mobile.scss */
+  /* line 6, ../sass/_mobile.scss */
   .navbar-one {
-    font-size: 10px !important;
+    font-size: 10px;
     height: 45px;
   }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  /* line 18, ../sass/_mobile.scss */
+  /* line 14, ../sass/_mobile.scss */
   .navbar-one {
-    font-size: 10px !important;
+    font-size: 10px;
     height: 45px;
   }
 
-  /* line 22, ../sass/_mobile.scss */
+  /* line 18, ../sass/_mobile.scss */
   .blank {
     background: white;
     width: 50px;
@@ -9133,7 +9132,7 @@ footer h4 {
     left: 48%;
   }
 
-  /* line 29, ../sass/_mobile.scss */
+  /* line 25, ../sass/_mobile.scss */
   .shop {
     border-right: 2px dotted black;
   }
